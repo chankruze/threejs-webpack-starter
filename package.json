@@ -1,6 +1,21 @@
 {
-  "repository": "#",
-  "license": "UNLICENSED",
+  "name": "threejs-webpack-starter",
+  "version": "1.0.0",
+  "description": "Courtesy of Bruno Simon of https://threejs-journey.xyz/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chankruze/threejs-webpack-starter.git"
+  },
+  "keywords": [
+    "three.js",
+    "threejs-starter"
+  ],
+  "author": "chankruze<chankruze@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chankruze/threejs-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/chankruze/threejs-webpack-starter#readme",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
